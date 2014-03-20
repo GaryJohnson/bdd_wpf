@@ -1,4 +1,4 @@
-Feature: Main Page
+Feature: Logging In
 	In order to test ATDD in WPF
 	As a developer
 	I want to make sure this actually works

@@ -5,11 +5,6 @@ class MainPage
   window(:title => 'MainWindow')
 
   text(:username, :id => "UserName")
-  button(:go, :value => "Go")
+  button(:login, :value => "Log In")
   label(:message, :id => "Message")
-
-  def login(username)
-    self.username = username
-    go
-  end
 end
